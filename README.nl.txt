@@ -1,0 +1,1 @@
+Krijg inzicht in vocht binnenshuis met temperatuur, relatieve luchtvochtigheid en een meting van een koud oppervlak. Bereken het dauwpunt en de veiligheidsmarge en gebruik Flow-voorwaarden voor ventilatie of meldingen. Dit is een hulpmiddel en geen bouwkundige inspectie.

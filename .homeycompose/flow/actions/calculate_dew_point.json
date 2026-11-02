@@ -1,0 +1,42 @@
+{
+  "title": {
+    "en": "Calculate indoor dew point",
+    "nl": "Bereken binnendauwpunt"
+  },
+  "hint": {
+    "en": "Uses the Magnus approximation for typical indoor conditions.",
+    "nl": "Gebruikt de Magnus-benadering voor normale binnenomstandigheden."
+  },
+  "args": [
+    {
+      "name": "room_temp_c",
+      "type": "number",
+      "title": {
+        "en": "Room temperature (°C)",
+        "nl": "Kamertemperatuur (°C)"
+      }
+    },
+    {
+      "name": "humidity_percent",
+      "type": "number",
+      "title": {
+        "en": "Relative humidity (%)",
+        "nl": "Relatieve luchtvochtigheid (%)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Calculate dew point at [[room_temp_c]]°C and [[humidity_percent]]% humidity",
+    "nl": "Bereken dauwpunt bij [[room_temp_c]]°C en [[humidity_percent]]% luchtvochtigheid"
+  },
+  "tokens": [
+    {
+      "name": "dew_point_c",
+      "type": "number",
+      "title": {
+        "en": "Dew point (°C)",
+        "nl": "Dauwpunt (°C)"
+      }
+    }
+  ]
+}

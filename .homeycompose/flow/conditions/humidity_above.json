@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Relative humidity reaches a limit",
+    "nl": "Relatieve luchtvochtigheid bereikt een grens"
+  },
+  "hint": {
+    "en": "Compare a relative-humidity reading with a percentage threshold.",
+    "nl": "Vergelijk een meting van relatieve luchtvochtigheid met een percentagegrens."
+  },
+  "args": [
+    {
+      "name": "humidity_percent",
+      "type": "number",
+      "title": {
+        "en": "Relative humidity (%)",
+        "nl": "Relatieve luchtvochtigheid (%)"
+      }
+    },
+    {
+      "name": "threshold_percent",
+      "type": "number",
+      "title": {
+        "en": "Humidity threshold (%)",
+        "nl": "Grens luchtvochtigheid (%)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "[[humidity_percent]]% humidity reaches [[threshold_percent]]%",
+    "nl": "[[humidity_percent]]% luchtvochtigheid bereikt [[threshold_percent]]%"
+  }
+}

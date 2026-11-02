@@ -1,0 +1,1 @@
+Understand indoor moisture conditions using temperature, relative humidity, and a cold-surface reading. Calculate dew point and the safety margin, then use Flow conditions to decide when to ventilate or send an alert. Estimates support awareness and are not a building inspection.

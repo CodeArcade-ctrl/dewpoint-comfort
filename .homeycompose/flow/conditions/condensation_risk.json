@@ -1,0 +1,48 @@
+{
+  "title": {
+    "en": "Condensation margin is small",
+    "nl": "Condensatiemarge is klein"
+  },
+  "hint": {
+    "en": "True when the surface is at or within the chosen margin above the dew point.",
+    "nl": "Waar wanneer het oppervlak op of binnen de gekozen marge boven het dauwpunt ligt."
+  },
+  "args": [
+    {
+      "name": "room_temp_c",
+      "type": "number",
+      "title": {
+        "en": "Room temperature (°C)",
+        "nl": "Kamertemperatuur (°C)"
+      }
+    },
+    {
+      "name": "humidity_percent",
+      "type": "number",
+      "title": {
+        "en": "Relative humidity (%)",
+        "nl": "Relatieve luchtvochtigheid (%)"
+      }
+    },
+    {
+      "name": "surface_temp_c",
+      "type": "number",
+      "title": {
+        "en": "Cold surface temperature (°C)",
+        "nl": "Temperatuur koud oppervlak (°C)"
+      }
+    },
+    {
+      "name": "minimum_margin_c",
+      "type": "number",
+      "title": {
+        "en": "Minimum safe margin (°C)",
+        "nl": "Minimale veiligheidsmarge (°C)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Check the surface margin at [[surface_temp_c]]°C",
+    "nl": "Controleer de oppervlaktemarge bij [[surface_temp_c]]°C"
+  }
+}

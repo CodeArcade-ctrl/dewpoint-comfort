@@ -1,0 +1,58 @@
+{
+  "title": {
+    "en": "Calculate condensation margin",
+    "nl": "Bereken condensatiemarge"
+  },
+  "hint": {
+    "en": "The margin is surface temperature minus dew point. A small or negative margin means increased risk.",
+    "nl": "De marge is oppervlaktetemperatuur min dauwpunt. Een kleine of negatieve marge betekent meer risico."
+  },
+  "args": [
+    {
+      "name": "room_temp_c",
+      "type": "number",
+      "title": {
+        "en": "Room temperature (°C)",
+        "nl": "Kamertemperatuur (°C)"
+      }
+    },
+    {
+      "name": "humidity_percent",
+      "type": "number",
+      "title": {
+        "en": "Relative humidity (%)",
+        "nl": "Relatieve luchtvochtigheid (%)"
+      }
+    },
+    {
+      "name": "surface_temp_c",
+      "type": "number",
+      "title": {
+        "en": "Cold surface temperature (°C)",
+        "nl": "Temperatuur koud oppervlak (°C)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Compare dew point with a [[surface_temp_c]]°C surface",
+    "nl": "Vergelijk dauwpunt met een oppervlak van [[surface_temp_c]]°C"
+  },
+  "tokens": [
+    {
+      "name": "dew_point_c",
+      "type": "number",
+      "title": {
+        "en": "Dew point (°C)",
+        "nl": "Dauwpunt (°C)"
+      }
+    },
+    {
+      "name": "condensation_margin_c",
+      "type": "number",
+      "title": {
+        "en": "Condensation margin (°C)",
+        "nl": "Condensatiemarge (°C)"
+      }
+    }
+  ]
+}
