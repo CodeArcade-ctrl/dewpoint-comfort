@@ -1,0 +1,49 @@
+{
+  "id": "com.codearcade.dewpointcomfort",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "sdk": 3,
+  "brandColor": "#76534c",
+  "name": {
+    "en": "Dewpoint Comfort",
+    "nl": "Dauwpunt Comfort"
+  },
+  "description": {
+    "en": "Spot condensation risk before moisture settles on cold surfaces.",
+    "nl": "Signaleer condensatierisico voordat vocht op koude oppervlakken neerslaat."
+  },
+  "category": "climate",
+  "tags": {
+    "en": [
+      "dew point",
+      "humidity",
+      "condensation",
+      "climate",
+      "mould prevention"
+    ],
+    "nl": [
+      "dauwpunt",
+      "luchtvochtigheid",
+      "condensatie",
+      "klimaat",
+      "schimmelpreventie"
+    ]
+  },
+  "images": {
+    "small": "/assets/store-small.png",
+    "large": "/assets/store-large.png",
+    "xlarge": "/assets/store-xlarge.png"
+  },
+  "author": {
+    "name": "CodeArcade"
+  },
+  "source": "https://github.com/CodeArcade-ctrl/dewpoint-comfort",
+  "homepage": "https://github.com/CodeArcade-ctrl/dewpoint-comfort",
+  "bugs": {
+    "url": "https://github.com/CodeArcade-ctrl/dewpoint-comfort/issues"
+  }
+}
