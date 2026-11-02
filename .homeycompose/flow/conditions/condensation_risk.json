@@ -42,7 +42,7 @@
     }
   ],
   "titleFormatted": {
-    "en": "Check the surface margin at [[surface_temp_c]]°C",
-    "nl": "Controleer de oppervlaktemarge bij [[surface_temp_c]]°C"
+    "en": "Check the margin at [[surface_temp_c]]°C with [[room_temp_c]]°C room temperature, [[humidity_percent]]% humidity, and a [[minimum_margin_c]]°C limit",
+    "nl": "Controleer de marge bij [[surface_temp_c]]°C, [[room_temp_c]]°C kamertemperatuur, [[humidity_percent]]% luchtvochtigheid en een grens van [[minimum_margin_c]]°C"
   }
 }

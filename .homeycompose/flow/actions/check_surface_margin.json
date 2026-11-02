@@ -34,8 +34,8 @@
     }
   ],
   "titleFormatted": {
-    "en": "Compare dew point with a [[surface_temp_c]]°C surface",
-    "nl": "Vergelijk dauwpunt met een oppervlak van [[surface_temp_c]]°C"
+    "en": "Compare dew point from [[room_temp_c]]°C and [[humidity_percent]]% humidity with a [[surface_temp_c]]°C surface",
+    "nl": "Vergelijk het dauwpunt van [[room_temp_c]]°C en [[humidity_percent]]% luchtvochtigheid met een oppervlak van [[surface_temp_c]]°C"
   },
   "tokens": [
     {
